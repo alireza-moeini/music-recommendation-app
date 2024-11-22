@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  music-api:
+    build: .
+    container_name: music-recommender-api
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./models/model_store:/app/models/model_store
+      - ./data_files:/app/data_files
+    restart: unless-stopped
