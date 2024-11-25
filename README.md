@@ -52,10 +52,6 @@ FastAPI + PyTorch music recommender with model saving and Docker support.
     └── eval.py
 ```
 
-- `src/` contains all the source code for datasets, models, training, evaluation, and visualization.
-- `weights/` stores trained model weights (`.pth` files).
-- `dataset/` contains CSV files and image data for training and testing (after adding the dataset to the project).
-
 
 ## Installation
 
